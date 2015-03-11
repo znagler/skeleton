@@ -1,0 +1,33 @@
+#block-columbia-pages-daily-news-mockup h2,
+#block-columbia-pages-daily-news-mockup-long h2 {
+  background: url(/sites/all/modules/rocket/custom/columbia_pages/less/images/icon.png) 0px 0px no-repeat;
+  padding-left: 35px;
+  margin-left: 15px;
+}
+.daily-news-mockup-wrapper {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-bottom: 15px;
+}
+.daily-news-mockup-wrapper .field-content,
+.daily-news-mockup-wrapper .field-title {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #8a8a8a;
+}
+.daily-news-mockup-wrapper .field-title {
+  font-weight: bold;
+}
+.daily-news-mockup-wrapper .news-item {
+  padding: 10px 30px;
+  border-bottom: 1px solid #efefec;
+}
+.daily-news-mockup-wrapper .news-item:last-child {
+  border-bottom: 0px;
+}
+.daily-news-mockup-wrapper .news-item.sponsored {
+  background: #fcfcfc;
+}
+.daily-news-mockup-wrapper .sponsored-label {
+  font-size: 10px;
+}

@@ -1,0 +1,30 @@
+.icon-info-small {
+  cursor: pointer;
+}
+.icon-info-small .hint {
+  display: none;
+}
+.tipsy .tipsy-arrow {
+  background: url(/sites/all/modules/rocket/custom/columbia_block_themes/less/images/hint-triangle-w.png) left center no-repeat !important;
+  width: 14px !important;
+  height: 16px !important;
+  margin-top: -8px !important;
+}
+.tipsy .tipsy-inner {
+  background: #f2f2f1;
+  border: 1px solid #08405f;
+  margin-left: 8px;
+}
+.tipsy.tipsy-e .tipsy-arrow {
+  background: url(/sites/all/modules/rocket/custom/columbia_block_themes/less/images/hint-triangle-e.png) right center no-repeat !important;
+}
+.tipsy.tipsy-e .tipsy-inner {
+  margin-left: 0px;
+  margin-right: 8px;
+}
+.hint-content {
+  text-align: left;
+  color: #615e5e;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
